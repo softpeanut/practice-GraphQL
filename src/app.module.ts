@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { Connection } from 'typeorm';
 import 'dotenv/config';
 import { ProductModule } from './product/product.module';
 import { TypeOrmConfigModule } from './typeorm/typeorm-config.module';
