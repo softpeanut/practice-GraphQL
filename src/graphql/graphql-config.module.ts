@@ -5,7 +5,7 @@ import { ProductModule } from "src/product/product.module";
 @Module({
   imports: [
       GraphQLModule.forRoot({
-          autoSchemaFile: 'schema.gql',
+          autoSchemaFile: 'schema.gpl',
           include: [ProductModule]
       })
   ]  
