@@ -14,6 +14,4 @@ import { GraphQLConfigModule } from './graphql/graphql-config.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {
-  constructor(private readonly connection: Connection) { }
-}
+export class AppModule {}
